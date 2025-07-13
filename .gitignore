@@ -1,0 +1,55 @@
+# ---------------
+# Python ignores
+# ---------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# ---------------
+# dotenv / secrets
+# ---------------
+.env
+config.py
+config/
+*.env
+
+# ---------------
+# VSCode / IDE
+# ---------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------
+# Output images / logs
+# ---------------
+outputs/
+*.png
+*.csv
+
+# ---------------
+# Jupyter notebooks (if any)
+# ---------------
+.ipynb_checkpoints
+
+# ---------------
+# OS / Finder / Explorer cruft
+# ---------------
+.DS_Store
+Thumbs.db
+
+# ---------------
+# Deployment artifacts
+# ---------------
+*.log
+*.pid
+*.tar.gz
